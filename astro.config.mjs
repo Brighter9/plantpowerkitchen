@@ -17,6 +17,8 @@ export default defineConfig({
     rehypePlugins: ["rehype-plugin-image-native-lazy-loading"],
     extendDefaultPlugins: true,
   },
+  const POSTS_PER_PAGE = 5;
+
   integrations: [
     tailwind(),
     image({
@@ -24,5 +26,7 @@ export default defineConfig({
     }),
     mdx(),
     sitemap(),
+    
+
   ],
 });
