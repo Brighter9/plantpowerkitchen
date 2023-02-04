@@ -19,7 +19,7 @@ export default defineConfig({
   },
   
 
-paginate: 8 
+
 
   integrations: [
     tailwind(),
