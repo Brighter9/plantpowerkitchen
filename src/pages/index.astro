@@ -31,9 +31,9 @@ import { latestPosts } from "@utils/content";
             .map((post) => <Postlist post={post} aspect="square" />)
         }
       </div>
+      <Link to="/archive">
+        <button className="btn btn-primary">See all posts</button>
+      </Link>
     </main>
-    <Link to="/archive">
-  <button className="btn btn-primary">See all posts</button>
-</Link>
   </Container>
 </Layout>
