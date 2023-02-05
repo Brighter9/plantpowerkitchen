@@ -10,4 +10,4 @@ export const latestPosts = (
   (a, b) =>
     new Date(b.data.publishDate).valueOf() -
     new Date(a.data.publishDate).valueOf()
-);
+).slice(0, 5);
