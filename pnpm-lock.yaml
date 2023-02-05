@@ -9,7 +9,7 @@ specifiers:
   '@fontsource/inter': ^4.5.14
   '@tailwindcss/line-clamp': ^0.4.2
   '@tailwindcss/typography': ^0.5.9
-  '@types/alpinejs': ^3.7.1
+  '@types/alpinejs': ^3.17.0
   astro: ^1.9.2
   astro-color-scheme: ^1.0.1
   astro-feather-icons: ^1.0.2
