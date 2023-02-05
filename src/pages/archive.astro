@@ -25,3 +25,101 @@ import { latestPosts } from "@utils/content";
     </main>
   </Container>
 </Layout>
+---
+
+export async function getStaticPaths({ paginate }) {
+
+  const astronautPages = [{
+
+    astronaut: ' ',
+
+  }, {
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  },{
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  },{
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  },{
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  }, {
+
+    astronaut: '',
+
+  }] ;
+
+    
+
+ 
+                         
+
+  // Generate pages from our array of astronauts, with 8 to a page
+
+  return paginate(astronautPages, { pageSize: 8 });
+
+}
+
+// All paginated data is passed on the "page" prop
+
+const { page } = Astro.props;
+
+---
+
+<!--Display the current page number. Astro.params.page can also be used!-->
+
+<h1>Page {page.currentPage}</h1>
+
+<ul>
+
+  <!--List the array of astronaut info-->
+
+  {page.data.map(({ astronaut }) => <li>{astronaut}</li>)}
+
+</ul>
