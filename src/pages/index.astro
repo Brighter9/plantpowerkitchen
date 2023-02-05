@@ -32,9 +32,9 @@ import Link from "@components/ui/link.astro";
             .map((post) => <Postlist post={post} aspect="square" />)
         }
       </div>
-      <Link to="/archive">
-        <button className="btn btn-primary">See all posts</button>
-      </Link>
+     <div class="mt-8">
+        <Link href="/contact" style="primary"> see all posts</Link>
+      </div>
     </main>
   </Container>
 </Layout>
