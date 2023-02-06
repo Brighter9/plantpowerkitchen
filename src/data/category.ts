@@ -4,42 +4,76 @@ export interface Props {
   color: "green" | "blue" | "orange" | "purple" | "pink";
   description: string;
 }
-export type Category = Props;
-
 export const categories: Props[] = [
   {
-    title: "Technology",
-    slug: "technology",
-    color: "blue",
-    description:
-      "Keep up with the latest tech trends and learn about the latest innovations in software development, hardware design, cybersecurity, and more.",
-  },
-  {
-    title: "Lifestyle",
-    slug: "lifestyle",
-    color: "orange",
-    description:
-      "Explore the latest trends and ideas in fashion, food, home design, and more, and get inspiration for living your best life.",
-  },
-  {
-    title: "Personal",
-    slug: "personal",
+    title: "Entrees",
+    slug: "entrees",
     color: "green",
     description:
-      "Discover tips and strategies for self-improvement, personal development, and achieving your goals, and find resources to help you grow as a person.",
+      "Discover delicious and satisfying vegan entrees that will be the star of your meal, from classic dishes to creative new ideas.",
   },
   {
-    title: "Travel",
-    slug: "travel",
+    title: "Sides & Snacks",
+    slug: "sides-and-snacks",
+    color: "blue",
+    description:
+      "Find tasty and nutritious vegan side dishes and snacks to complete your meal, with options for all tastes and occasions.",
+  },
+  {
+    title: "Desserts",
+    slug: "desserts",
     color: "pink",
     description:
-      "Plan your next adventure and get travel tips and inspiration from experienced travelers, with articles covering destinations, cultures, and more.",
+      "Indulge in sweet and satisfying vegan desserts that will satisfy your sweet tooth, from classic treats to new and creative recipes.",
   },
   {
-    title: "Design",
-    slug: "design",
+    title: "Beverages",
+    slug: "beverages",
+    color: "orange",
+    description:
+      "Refresh and rejuvenate with delicious and healthy vegan beverages, including smoothies, juices, and more.",
+  },
+  {
+    title: "Special Occasions",
+    slug: "special-occasions",
     color: "purple",
     description:
-      "Get insights and inspiration from the world of design, with articles covering graphic design, product design, interior design, and more.",
+      "Find the perfect vegan recipes for your next celebration, from birthdays to holidays and everything in between.",
   },
+  {
+    title: "Breakfast",
+    slug: "breakfast",
+    color: "green",
+    description:
+      "Start your day off right with delicious and nutritious vegan breakfast recipes, including smoothie bowls, tofu scramble, and more.",
+  },
+  {
+    title: "Lunch",
+    slug: "lunch",
+    color: "blue",
+    description:
+      "Find tasty and filling vegan lunch recipes that are easy to make and perfect for work or school, including salads, sandwiches, and more.",
+  },
+  {
+    title: "Soups & Stews",
+    slug: "soups-and-stews",
+    color: "pink",
+    description:
+      "Warm up with comforting and hearty vegan soups and stews, perfect for cold weather or a cozy night in.",
+  },
+  {
+    title: "Bread & Pastry",
+    slug: "bread-and-pastry",
+    color: "orange",
+    description:
+      "Indulge in delicious and satisfying vegan bread and pastry recipes, from classic baked goods to creative new twists.",
+  },
+  {
+    title: "Global Cuisines",
+    slug: "global-cuisines",
+    color: "purple",
+    description:
+      "Explore delicious vegan recipes from around the world, including cuisine from India, Mexico, Italy, and more.",
+  },
+
 ];
