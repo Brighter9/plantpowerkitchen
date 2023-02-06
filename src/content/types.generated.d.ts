@@ -43,8 +43,7 @@ declare module 'astro:content' {
 
 	const entryMap: {
 		"blog": {
-const entryMap: {
-		"blog": {
+
 "Vegan-Smoothie-Bowl.mdx": {
   id: "Vegan-Smoothie-Bowl.mdx",
   slug: "Vegan-Smoothie-Bowl",
@@ -87,10 +86,7 @@ const entryMap: {
   collection: "blog",
   data: any
 },
-}
-
 },
-
 	};
 
 	type ContentConfig = never;
