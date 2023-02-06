@@ -14,3 +14,4 @@ export const authors: Props[] = [
     image: "./src/assets/authors/avatar.jpg",
     bio: "yo i am here to make your vegan life easy ",
   },
+]
