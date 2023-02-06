@@ -11,6 +11,6 @@ export const authors: Props[] = [
   {
     name: "Abhinav",
     slug: "Abhinav",
-    image: "./src/assets/authors/avatar.png",
+    image: "./src/assets/authors/avatar.jpg",
     bio: "yo i am here to make your vegan life easy ",
   },
