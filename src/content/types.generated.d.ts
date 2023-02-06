@@ -44,43 +44,43 @@ declare module 'astro:content' {
 	const entryMap: {
 		"blog": {
 
-"Vegan-Smoothie-Bowl.mdx": {
-  id: "Vegan-Smoothie-Bowl.mdx",
+"Vegan-Smoothie-Bowl.md": {
+  id: "Vegan-Smoothie-Bowl.md",
   slug: "Vegan-Smoothie-Bowl",
   body: string,
   collection: "blog",
   data: any
 },
-"Vegan-tofu-scramble-with-veggies.mdx": {
-  id: "Vegan-tofu-scramble-with-veggies.mdx",
+"Vegan-tofu-scramble-with-veggies.md": {
+  id: "Vegan-tofu-scramble-with-veggies.md",
   slug: "Vegan-tofu-scramble-with-veggies",
   body: string,
   collection: "blog",
   data: any
 },
-"example-post.mdx": {
-  id: "example-post.mdx",
+"example-post.md": {
+  id: "example-post.md",
   slug: "example-post",
   body: string,
   collection: "blog",
   data: any
 },
-"vegan-avocado-toast.mdx": {
-  id: "vegan-avocado-toast.mdx",
+"vegan-avocado-toast.md": {
+  id: "vegan-avocado-toast.md",
   slug: "vegan-avocado-toast",
   body: string,
   collection: "blog",
   data: any
 },
-"vegan-lentil-soup.mdx": {
-  id: "vegan-lentil-soup.mdx",
+"vegan-lentil-soup.md": {
+  id: "vegan-lentil-soup.md",
   slug: "vegan-lentil-soup",
   body: string,
   collection: "blog",
   data: any
 },
-"vegan-pencakes-with-Fresh-Berries.mdx": {
-  id: "vegan-pencakes-with-Fresh-Berries.mdx",
+"vegan-pencakes-with-Fresh-Berries.md": {
+  id: "vegan-pencakes-with-Fresh-Berries.md",
   slug: "vegan-pencakes-with-Fresh-Berries",
   body: string,
   collection: "blog",
