@@ -13,13 +13,13 @@ export interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
-const { title, desc, ogimage = "/opengraph.jpg" } = Astro.props;
+const { title, desc, ogimage = "" } = Astro.props;
 
 const resolvedOGImage = checkImageUrl(ogimage, Astro.site);
 
 const makeTitle = title
   ? title + " | " + "Stablo"
-  : "Stablo — Free Blog Website Template built with Astro & MDX";
+  : "Plant power kitchen🌿-Vegan Foodie's one of the best platform to learn ";
 ---
 
 <!DOCTYPE html>
@@ -32,25 +32,14 @@ const makeTitle = title
     <SEO
       title={makeTitle}
       description={desc ||
-        "Stablo is a Blog Starter Template built with Astro & MDX."}
+        "Power Plant Kitchen 🌿 "}
       canonical={canonicalURL}
       twitter={{
-        creator: "@surjithctly",
-        site: "@web3templates",
-        card: "summary_large_image",
+        creator: "@TheVeganAbhinav",
+        site: "",
+        card: "",
       }}
-      openGraph={{
-        basic: {
-          url: canonicalURL,
-          type: "website",
-          title: `Stablo - Blog Starter Template for Astro`,
-          image: resolvedOGImage,
-        },
-        image: {
-          alt: "Stablo Screenshot",
-        },
-      }}
-    />
+      
   </head>
   <body>
     <Navbar />
